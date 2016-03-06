@@ -1,0 +1,11 @@
+LINK: http://ejemplofacu33.comuv.com/
+
+Usuario:
+
+- Usuario común:
+	Usuario: norausu
+	Pass: 	norausu
+
+- Usuario admin:
+	Usuario: noraadmin
+	Pass: noraadmin

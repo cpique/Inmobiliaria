@@ -1,0 +1,779 @@
+@import "http://fonts.googleapis.com/css?family=Cabin:400";
+a, a img {
+  border:none;
+  outline:none;
+  text-decoration:none;
+}
+.clear-both {
+  clear:both;
+}
+* {
+  margin:0;
+  padding:0;
+}
+body {
+  background-color:#F4F4F4;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:12px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:normal;
+  margin:0;
+}
+#contenedor_100 {
+  background-image:url(http://a250fcf79fa80dc6763a-70de7b6a26c795f289a152a94b7ac7a6.r42.cf1.rackcdn.com/14.png);
+  overflow:hidden;
+  width:100%;
+}
+#contenedor_100_index {
+}
+#contenedor {
+  margin:0 auto;
+  overflow:hidden;
+  position:relative;
+  width:989px;
+}
+#header {
+  -webkit-box-shadow:rgba(0, 0, 0, 0.4) 1px 1px 8px;
+  background-image:url(imagen/fondoheader.jpg);
+  box-shadow:rgba(0, 0, 0, 0.4) 1px 1px 8px;
+  height:120px;
+  overflow:hidden;
+  position:relative;
+  width:100%;
+  z-index:10;
+}
+#footer {
+  background-color:#008000;
+  background-position:50% 100%;
+  overflow:hidden;
+  width:100%;
+  height:50px;
+  text-align:center;
+  display: table;
+  font:bold 13px Arial, Helvetica, sans-serif;
+}
+
+#footerhijo{
+
+display: table-cell;
+	vertical-align: middle;
+	color:#FFFFFF;
+	}
+
+#cont_pre_footer {
+  background-color:#EEEEEE;
+  background-image:url(http://www.kantai.com.ar/css/img/fd_footer.jpg);
+  background-position:50% 0;
+  background-repeat:repeat-x;
+  overflow:hidden;
+  width:100%;
+}
+#caja3 {
+  margin:20px auto auto;
+  overflow:hidden;
+  width:980px;
+}
+#cuerpo {
+  background-color:#FFFFFF;
+  overflow:hidden;
+  width:980px;
+}
+#cont_caja_banner_busc {
+  background-color:#D42D33;
+  margin-top:-8px;
+  overflow:hidden;
+  width:100%;
+}
+#caja_buscador_banner {
+  background-image:url(http://www.kantai.com.ar/css/img/fd_sombra_header.png);
+  background-position:50% 100%;
+  background-repeat:no-repeat;
+  height:280px;
+  margin:20px auto 0;
+  overflow:hidden;
+  position:relative;
+  width:980px;
+}
+#caja_buscador {
+  background-color:#26214D;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:0;
+  border-top-left-radius:8px;
+  border-top-right-radius:0;
+  float:left;
+  height:256px;
+  padding-left:15px;
+  width:310px;
+}
+#caja_ventas_alquileres {
+  margin:35px auto auto;
+  overflow:hidden;
+  width:980px;
+}
+#ventas_alquileres_left {
+  float:left;
+  overflow:hidden;
+  width:725px;
+}
+#col_servicios_suscrip_right {
+  border:1px solid #CCCCCC;
+  border-bottom-left-radius:7px;
+  border-bottom-right-radius:7px;
+  border-top-left-radius:7px;
+  border-top-right-radius:7px;
+  float:right;
+  padding:0 10px 10px;
+  width:205px;
+}
+#vtas_destacadas {
+  margin-bottom:30px;
+  overflow:hidden;
+  width:100%;
+}
+#alq_destacados {
+  overflow:hidden;
+  width:100%;
+}
+#servicios {
+  float:left;
+  overflow:hidden;
+  width:290px;
+}
+#ubicacion {
+  float:left;
+  margin-left:33px;
+  overflow:hidden;
+  width:290px;
+}
+#encontranos {
+  float:right;
+  margin-bottom:15px;
+  overflow:hidden;
+  position:relative;
+  width:335px;
+  z-index:100;
+}
+#cont_encontranos {
+  margin:auto;
+}
+#franja_gris, .textos_slide {
+  background-image:url(http://www.kantai.com.ar/css/img/px_negro.png);
+  bottom:0;
+  height:65px;
+  position:absolute;
+  width:100%;
+  z-index:15;
+}
+.textos_slide {
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+}
+#cont_header {
+  height:155px;
+  margin:auto;
+  width:980px;
+}
+#cont_header h1 a img {
+  float:left;
+  margin:7px 0 0 45px;
+}
+#formas_contacto {
+  float:right;
+  height:83px;
+  margin:45px 45px 0 0;
+  position:relative;
+}
+#formas_contacto p {
+  background-image:url(http://www.kantai.com.ar/css/img/iconos_contacto.png);
+  background-position:100% 0;
+  background-repeat:no-repeat;
+  margin-top:30px;
+  min-height:52px;
+  padding-right:30px;
+  text-align:right;
+}
+#formas_contacto p span, #formas_contacto p a {
+  color:#262262;
+  display:block;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:14px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:normal;
+  margin-top:5px;
+  text-decoration:none;
+}
+#facebook_like_enviar {
+  position:absolute;
+  right:-45px;
+  top:-20px;
+}
+#formas_contacto #listado_formas {
+  bottom:0;
+  position:relative;
+  right:0;
+}
+p.header_telefono, p.header_mail, p.header_direccion {
+  background-repeat:no-repeat;
+}
+p.header_telefono {
+  background-image:url(http://www.kantai.com.ar/css/img/icon_tel.png);
+  background-position:30px 0;
+}
+p.header_mail {
+  background-image:url(http://www.kantai.com.ar/css/img/icon_mail.png);
+  background-position:30px 0;
+}
+p.header_direccion {
+  background-image:url(http://www.kantai.com.ar/css/img/icon_dire.png);
+  background-position:0 0;
+  width:260px;
+}
+#cont_menu {
+  height:100%;
+  margin:auto;
+  width:980px;
+}
+#menu {
+  background-image:url(http://www.kantai.com.ar/css/img/fd_menu.png);
+  background-repeat:repeat-x;
+  height:42px;
+  position:relative;
+  width:100%;
+}
+#menu p {
+  color:#312A63;
+  position:absolute;
+  width:980px;
+}
+#menu p, #menu p a {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:13px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:bold;
+  line-height:normal;
+  margin:3px 15px;
+  padding-top:5px;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+#menu p a {
+  color:#EDEDED;
+}
+#menu p a:first-child {
+  margin-left:32px;
+}
+#menu p a:hover, #menu p a:active {
+  color:#C8C8C8;
+}
+#menu p a.activo {
+  color:#ED1C24;
+}
+#cont_footer {
+  background-image:url(http://www.kantai.com.ar/css/img/fd_footer_azul.png);
+  height:44px;
+  width:100%;
+}
+#caja_centrada_footer {
+  margin:auto;
+  overflow:hidden;
+  width:980px;
+}
+#cont_footer p {
+  float:right;
+  margin-right:10px;
+}
+#cont_footer p, #cont_footer p a {
+  color:#E7E7E7;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:11px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:normal;
+  margin-top:16px;
+  text-align:center;
+}
+#cont_footer p a:hover, #cont_footer p a.activo {
+  color:#ED1C24;
+}
+#cont_footer p.copy {
+  float:left;
+  height:21px;
+  margin:13px 0 0 -80px;
+  position:relative;
+  width:177px;
+}
+#cont_footer p.copy a img {
+  position:absolute;
+  right:0;
+  top:-2px;
+}
+#cont_footer p.datos a {
+  color:#00A4F0;
+}
+#cont_footer p.copy span a img {
+  position:relative;
+  right:0;
+  top:7px;
+}
+p.txt_contacto, p.txt_contacto a {
+  color:#747474;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:12px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:normal;
+  margin-top:5px;
+}
+p.txt_contacto a {
+  color:#262262;
+  text-decoration:underline;
+}
+p.txt_contacto.espacio {
+  margin-top:10px;
+}
+#cont_encontranos a img {
+  margin-top:10px;
+}
+p.tit_foot {
+  color:#6D6D6D;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:15px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:bold;
+  line-height:normal;
+  margin-bottom:5px;
+  text-shadow:#FFFFFF 2px 2px;
+  text-transform:uppercase;
+}
+.boxPropiedad, .boxPropiedad2 {
+  background-color:#F6F6F6;
+  border:1px solid #CCCCCC;
+  border-bottom-left-radius:7px;
+  border-bottom-right-radius:7px;
+  border-top-left-radius:7px;
+  border-top-right-radius:7px;
+  float:left;
+  height:294px;
+  margin:10px 0 0 14px;
+  padding:10px;
+  position:relative;
+  width:210px;
+}
+.boxPropiedad.v1, .boxPropiedad.v4, .boxPropiedad2.a1 {
+  margin-left:0;
+}
+.cont_imagen {
+  border:1px solid #CCCCCC;
+  height:126px;
+  overflow:hidden;
+  position:relative;
+  width:208px;
+}
+.cont_home_img.sin_top {
+  top:0;
+}
+.cont_home_img {
+  position:absolute;
+  top:-32px;
+}
+.cont_desc_depto {
+  height:122px;
+  overflow:hidden;
+  padding-bottom:5px;
+}
+#map_canvas {
+  background-color:#E5E3DF;
+  height:330px;
+  margin-top:5px;
+  overflow:hidden;
+  position:relative;
+  width:601px;
+}
+.fila_img {
+  margin-top:20px;
+  width:100%;
+}
+.fila_img.alinear img {
+  margin-left:6px;
+  vertical-align:middle;
+}
+.fila_img.ultima img {
+  margin-left:12px;
+  vertical-align:middle;
+}
+.fila_img.links a img {
+  margin-left:32px;
+}
+#contenedor_busqueda, #contenedor_servicios {
+  background-color:#FFFFFF;
+  margin:0 auto;
+  overflow:hidden;
+  padding:35px 0 15px;
+  width:980px;
+}
+#filtros {
+  background-color:#F4F4F4;
+  float:left;
+  margin-left:15px;
+  overflow:hidden;
+  padding:10px;
+  width:295px;
+}
+#resultados {
+  float:right;
+  margin-right:15px;
+  overflow:hidden;
+  padding:10px;
+  width:600px;
+}
+#caja_filtros {
+  margin-top:20px;
+}
+.anuncio {
+  margin:10px 0;
+  overflow:hidden;
+  padding:7px;
+}
+.anuncio.S {
+  background-color:#F7F7F7;
+  border:1px solid #CFCFCF;
+}
+.cont_foto {
+  background-color:#FFFFFF;
+  float:left;
+  padding:4px;
+  position:relative;
+}
+.foto {
+  height:163px;
+  overflow:hidden;
+  position:relative;
+  text-align:center;
+  width:228px;
+}
+.foto img {
+  height:171px;
+  max-width:228px;
+  width:auto;
+}
+.info_propiedad {
+  float:left;
+  height:161px;
+  margin-left:10px;
+  margin-top:5px;
+  position:relative;
+  width:320px;
+}
+.titulo_paginador {
+  overflow:hidden;
+  width:100%;
+}
+.paginador {
+  float:right;
+}
+.paginador.abajo {
+  margin-top:15px;
+}
+#cont_ficha {
+  margin:0 auto;
+  overflow:hidden;
+  width:980px;
+}
+#col_izq_depto {
+  float:left;
+  margin:10px 0 0 15px;
+  overflow:hidden;
+  position:relative;
+  width:624px;
+}
+#col_der_depto {
+  background-color:#F4F4F4;
+  float:right;
+  margin:0 20px 0 0;
+  overflow:hidden;
+  padding:103px 10px 0;
+  width:260px;
+}
+#cont_todo_fotos {
+  background-color:#E8E7E7;
+  height:405px;
+  position:relative;
+  width:428px;
+}
+#ocultar_galeria {
+  background-color:#E8E7E7;
+  height:397px;
+  position:absolute;
+  width:430px;
+  z-index:5;
+}
+#col_izq_fotos {
+  float:left;
+  margin-left:3px;
+  width:430px;
+}
+#datos_depto {
+  position:absolute;
+  right:0;
+  top:0;
+  width:195px;
+}
+#cont_foto_grande {
+  background-color:#E8E7E7;
+  height:309px;
+  overflow:hidden;
+  padding:8px;
+  width:414px;
+}
+.clipwrapperFicha {
+  border:1px solid #CCCCCC;
+  height:309px;
+  overflow:hidden;
+  position:relative;
+  width:412px;
+}
+#cont_fotos_chichas {
+  background-color:#E8E7E7;
+  height:57px;
+  padding:10px 8px 5px;
+  width:414px;
+}
+.contenedor_miniatura {
+  border:1px solid #CCCCCC;
+  cursor:pointer;
+  float:left;
+  height:47px;
+  margin-left:1px;
+  overflow:hidden;
+  position:relative;
+  width:66px;
+}
+.contenedor_miniatura:first-child {
+  margin-left:0;
+}
+.contenedor_miniatura a img {
+  min-height:50px;
+  width:70px;
+}
+#contenedor_overflow_hidden {
+  height:49px;
+  overflow:hidden;
+  position:relative;
+  width:414px;
+}
+#movible {
+  left:0;
+  position:absolute;
+  width:2000px;
+}
+.columna_items {
+  float:left;
+  width:154px;
+}
+.fila_item {
+  margin-bottom:10px;
+  overflow:hidden;
+}
+#cont_mapa_ficha {
+  background-color:#E8E7E7;
+  margin-top:5px;
+  padding:8px;
+  width:602px;
+}
+#map_canvas_ficha {
+  height:330px;
+  overflow:hidden;
+  position:relative;
+  width:601px;
+}
+#cont_redes {
+  margin:20px 0;
+}
+#otras_propiedades {
+  border:1px solid #CACBCC;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  overflow:hidden;
+  padding:10px;
+}
+#col_servicios, #col_quienes, #col_tasacion, #col_contacto {
+  float:left;
+  margin-left:15px;
+  min-height:580px;
+  overflow:hidden;
+  width:640px;
+}
+#col_facebook {
+  background-color:#F5F5F5;
+  padding:20px;
+  position:absolute;
+  right:20px;
+  top:110px;
+  width:255px;
+}
+#col_facebook.tasacion {
+  height:369px;
+}
+#fd_col_facebook {
+  background-color:#F4F4F4;
+  height:100%;
+  left:15px;
+  margin:auto;
+  position:absolute;
+  width:252px;
+  z-index:5;
+}
+#col_facebook iframe {
+  margin:15px 30px;
+  position:relative;
+  z-index:15;
+}
+.fila_servicio {
+  margin-top:20px;
+  overflow:hidden;
+  width:100%;
+}
+.serv_izq {
+  float:left;
+  overflow:hidden;
+  width:49%;
+}
+.serv_der {
+  float:right;
+  overflow:hidden;
+  width:49%;
+}
+.img_serv {
+  float:left;
+  height:75px;
+  width:71px;
+}
+.img_serv.borde {
+  border:1px solid #C6DAE3;
+}
+.desc_serv {
+  float:left;
+  margin-bottom:10px;
+  margin-left:10px;
+  text-align:justify;
+}
+#tres_col_quienes {
+  margin-top:20px;
+  overflow:hidden;
+  width:100%;
+}
+.col_1_quienes, .col_2_quienes, .col_3_quienes {
+  float:left;
+  margin-left:10px;
+  width:193px;
+}
+.col_1_quienes {
+  margin-left:0;
+}
+#cuadro_azul {
+  background:#EDF3F6;
+  border:1px solid #CFC7A2;
+  margin-top:20px;
+  overflow:hidden;
+  padding:10px;
+  width:578px;
+}
+.col_form {
+  float:left;
+  width:280px;
+}
+.col_mapa {
+  float:right;
+  width:280px;
+}
+#mapa_tasacion, #mapa_contacto {
+  border:1px solid #FFFFFF;
+  height:207px;
+  margin-top:15px;
+  width:252px;
+}
+#box_datos_prop {
+  background-color:#F1F1F1;
+  margin-bottom:10px;
+  overflow:hidden;
+  padding:10px;
+  width:604px;
+}
+#box_datos_prop p {
+  color:#777777;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:13px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:bold;
+  line-height:normal;
+}
+p.precio_lugar {
+  color:#000000;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:14px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:bold;
+  line-height:normal;
+}
+p.precio_lugar span {
+  color:#201D48;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:24px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:bold;
+  line-height:normal;
+}
+p.tit_label {
+  color:#000000;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:14px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:normal;
+  margin:10px 0;
+  width:624px;
+}
+#box_galeria_datos {
+  overflow:hidden;
+  position:relative;
+  width:640px;
+}
+.hr_ficha {
+  background-color:#E2E2E2;
+  height:1px;
+  width:100%;
+}
+p.tit_label span {
+  background-color:#E2E2E2;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  color:#777777;
+  float:right;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:12px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:bold;
+  line-height:normal;
+  margin-top:-5px;
+  padding:3px 10px;
+  text-shadow:#FFFFFF 1px 1px;
+}
+/* CSS Document */
+

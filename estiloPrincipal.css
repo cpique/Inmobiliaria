@@ -1,0 +1,61 @@
+#mision {
+border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;
+
+
+margin-top:10px;
+margin-bottom:20px;
+margin-left:135px;
+text-align:center;
+float:left;
+width:600px;
+background-color: #fef5c4;
+border: 1px solid #fadf98;
+height:100px;
+font:bold 13px Arial, Helvetica, sans-serif;
+}
+
+#horarios{
+
+border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;
+
+margin-bottom:20px;
+margin-top:10px;
+margin-left:10px;
+float:left;
+width:350px;
+text-align:center;
+background-color:#FFFF99;
+border: 1px solid #fadf98;
+height:100px;
+font:bold 16px Arial, Helvetica, sans-serif;
+}
+
+#superior{
+
+width:1250px;
+}
+
+#secciones{
+width:1250px;
+}
+
+#pie
+{
+	text-align:center;
+	background-color:#33FF66;
+	height:50px;
+}
+
+.textoImagen{
+text-align:center;
+width:200px;}
+
+
+/* CSS Document */
+

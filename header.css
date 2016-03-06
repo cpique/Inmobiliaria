@@ -1,0 +1,92 @@
+/*RESET*/
+a, a img{
+	border:none;
+	text-decoration:none;
+	outline:none;
+}
+.clear-both{
+	clear:both;
+}
+*{
+	margin:0;
+	padding:0;
+}
+
+/*HEADER*/
+#header{
+float:left;
+border-color:#009900;}
+
+#cont_header_all_h{
+	width:100%;
+	overflow:hidden;
+}
+
+.barra_bca{
+	width:100%;
+	overflow:hidden;
+}
+#cont_header_h{
+float:left;
+	width:850px;
+	height:110px;
+	margin-left:20px;
+	overflow:hidden;
+	position:relative;
+}
+
+.logo{
+position:absolute;
+top:10px;
+right:100px;
+float:left;
+width:135px;
+height:100px;
+}
+
+#menu_header_h{
+
+	float:left;
+	position:absolute;
+	bottom: 10px;
+	right:100px;
+	width:750px;
+}
+#menu_header_h a{
+	display:inline-block;
+	height:33px;
+	font:bold 13px Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	margin-top:37px;
+	text-align:center;
+	padding: 5px 8px 0 8px;
+	line-height: 30px;
+}
+#menu_header_h a:hover, #menu_header_h a:active, #menu_header_h a.activo{
+	color:#000000;/*#201d48;*/
+	background:#FFFFFF /*#ffdd00;*/
+}
+#menu_header_h a#header_link_6{
+	width:110px;
+}
+
+#nombre_sesion
+{
+color:#FFFFFF;
+font-size:20px;
+font:bold;
+text-align:center;
+margin-right:200px;
+margin-top:35px;
+}
+
+
+.link_salir
+{
+color:#FFFFFF;
+text-align:center;
+
+}
+
+
+

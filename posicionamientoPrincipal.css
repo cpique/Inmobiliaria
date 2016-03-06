@@ -1,0 +1,239 @@
+body{ background-image:url(imagen/Fondo.jpg);}
+
+#superior{ text-align:center; background-image:url(imagen/fondoheader.jpg); width:1300px; height:250px;}
+
+#logo{ margin-right:50px; position:relative}
+
+#paisaje{float:left; width:400px; height:200px; border-color:#FFFFFF; border-style:ridge;}
+
+#login{float:left; width:200px; height:200px; border-color:#FFFFFF; border-style:ridge; text-align:center; }
+
+#secciones{ margin-left:100px; clear:left; text-align:center; }
+
+#seccionInicio{ float:left;  width:150px; border-color:#FFFFFF; border-style:ridge; }
+
+#seccionBsAs{ float:left; width:150px; border-color:#FFFFFF; border-style:ridge;  }
+
+#seccionCordoba{float:left; width:150px; border-color:#FFFFFF;  border-style:ridge;}
+
+#seccionRosario{float:left; width:150px; border-color:#FFFFFF;  border-style:ridge;}/* CSS Document */
+
+#seccionFaq{float:left; width:150px; border-color:#FFFFFF; border-style:ridge; }
+
+#seccionContacto{float:left; width:150px; border-color:#FFFFFF; border-style:ridge; }
+
+
+
+#contenido{ margin-left:100px; clear:left; }
+
+
+#menuAdministrador{ height:500px;}
+
+
+
+
+
+#abmUsuarios{ 	margin-left:300px; margin-top:50px; margin-bottom:50px;
+				height:125px;
+				width:300px;
+				float:left;
+				border-radius: 5px;
+	border: 4px solid #009900;
+	background-color:#D3D3D3;
+	
+
+ }
+ 
+ 
+ #abmInmuebles{ margin-left:50px; margin-top:50px; margin-bottom:50px;
+				height:125px;
+				width:300px;
+				float:left;
+				border-radius: 5px;
+	border: 4px solid #009900;
+	background-color:#D3D3D3;
+ }
+ 
+ 
+ 
+ 
+  #formAlta{
+  margin-top:50px; margin-left:400px; margin-bottom:50px;
+				height:400px;
+				width:300px;
+				float:left;
+				border-radius: 5px;
+	border: 4px solid #009900;
+	background-color:#D3D3D3;
+ }
+ 
+
+ 
+ 
+ .parrafo{ /*position:absolute; top:330px; left:570px;*/ margin-top:auto; font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#000000;}
+ 
+
+ 
+ .parrafo2{left:570px; font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#000000;}
+ 
+ #tableMenu{ height:400px;
+ 	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	width:300px;}
+	
+ #tableMenuInmuebles{ height:380px;
+ 	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	width:300px;}	
+
+   #formModi, #formModiPHP{
+  margin-top:50px; margin-left:300px; margin-bottom:50px;
+				height:200px;
+				width:500px;
+				float:left;
+				border-radius: 5px;
+	border: 4px solid #009900;
+	background-color:#D3D3D3;
+ }
+ 
+ 
+   #formBaja{
+  margin-top:50px; margin-left:300px; margin-bottom:50px;
+				height:150px;
+				width:500px;
+				float:left;
+				border-radius: 5px;
+	border: 4px solid #009900;
+	background-color:#D3D3D3;
+ } 
+
+#tableModi, #tableModiPHP{ height:200px;
+ 	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	width:500px;}
+	
+#tableBaja{ height:150px;
+ 	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	width:500px;}
+
+#celdas{ margin-left:20px;}
+
+
+
+.linksAdmin{ color:#000000;  }
+
+
+#formConsulta{
+  margin-top:50px; margin-left:50px; margin-bottom:50px;
+				
+				
+				float:left;
+				border-radius: 5px;
+	border: 4px solid #009900;
+	
+ }
+ 
+ #tableConsulta{ 
+ 	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	border-collapse: collapse;
+	}
+	
+	 #tableInmuebles{ 
+ 	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	border-collapse: collapse;
+	}
+	
+
+#formAltaInm{
+  margin-top:50px; margin-left:50px; margin-bottom:50px;
+				
+				
+				float:left;
+				border-radius: 5px;
+	border: 4px solid #009900;
+	background-color:#D3D3D3;
+ }
+ 
+ #tableAltaInm{ 
+ 	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	background-color:#D3D3D3;
+	}
+
+
+
+#formLogin{
+margin-top:50px; margin-left:50px; margin-bottom:50px;
+				
+				
+				float:left;
+				border-radius: 5px;
+	border: 4px solid #009900;
+	background-color:#D3D3D3;
+	width:400px;
+	height:150px;
+}
+
+
+#tableLogin{
+	 	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	border-collapse: collapse;
+}
+
+
+#formRegistroUsuario{
+margin-top:50px; margin-left:50px; margin-bottom:50px;
+				
+				
+				float:left;
+				border-radius: 5px;
+	border: 4px solid #009900;
+	background-color:#D3D3D3;
+	width:600px;
+	height:350px;
+}
+
+#formRegistroUsuarioAdmin{
+margin-top:50px; margin-left:50px; margin-bottom:50px;
+				
+				
+				float:left;
+				border-radius: 5px;
+	border: 4px solid #009900;
+	background-color:#D3D3D3;
+	width:600px;
+	height:330px;
+}
+
+
+#tableRegistroUsuario{
+	 	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	width:600px;
+	height:350px;
+}
+
+
+#tableRegistroUsuarioAdmin{
+	 	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	width:600px;
+	height:300px;
+}
+
+.formModi, .formBaja,.formConsulta{
+height:470px;}
+
+.menuAdmin{
+height:593px;}
+
+.menuModif, .menuAltaModif, .menuBajaModif, .menuAltaInm, .menuEstadoInm, .menuPrecioInm, .menuBajaInm, .menuRegistro, .Newsletter{
+height:470px;}
+
+.formLogin{
+height:473px;}
+
